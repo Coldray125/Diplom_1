@@ -17,8 +17,8 @@ public class IngredientParameterizedTest {
     static Faker faker = new Faker();
     private final IngredientType ingredientType;
     private Ingredient ingredient;
-    private String ingredientName;
-    private float ingredientPrice;
+    private final String ingredientName;
+    private final float ingredientPrice;
 
     public IngredientParameterizedTest(IngredientType ingredientType, String ingredientName, float ingredientPrice) {
         this.ingredientType = ingredientType;
